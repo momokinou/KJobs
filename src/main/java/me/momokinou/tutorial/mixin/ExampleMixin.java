@@ -1,4 +1,4 @@
-package me.momokinou.mixin;
+package me.momokinou.tutorial.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
