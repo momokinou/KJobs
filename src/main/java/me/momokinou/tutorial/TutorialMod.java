@@ -1,5 +1,6 @@
 package me.momokinou.tutorial;
 
+import me.momokinou.tutorial.block.ModBlocks;
 import me.momokinou.tutorial.item.ModItemGroup;
 import me.momokinou.tutorial.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
     public void onInitialize() {
         ModItemGroup.registerItemsGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
